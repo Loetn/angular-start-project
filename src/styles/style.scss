@@ -1,0 +1,37 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/angular2-busy/build/style/busy.css';
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+
+body {
+	height: 100vh;
+	background-color: #f7f7f7;
+}
+
+.signin {
+	margin-top: 2rem;
+}
+
+.scrollable {
+	overflow-y: auto;
+}
+
+.home {
+	border: 1px solid #CCCCCC;
+	border-top: 0px;
+	border-top: 0px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.master {
+	border-right: 1px solid #CCCCCC;
+	background-color: #eeeeee;
+}
+
+input.ng-pristine.ng-invalid.ng-untouched {
+	border-left: 5px solid #f0ad4e;
+}
+
+input.ng-invalid {
+	border-left: 5px solid #d9534f;
+}
